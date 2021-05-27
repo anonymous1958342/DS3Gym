@@ -65,14 +65,14 @@ DS3Gym executes with [pseudo-steady-state](https://arxiv.org/abs/2005.07666) con
 
 A DS3Gym framework allows users to customize different configurations. The supported settings are listed in `config.py`:
 
---`resource_profile`: A list of resource profiles
---`job_profile`: A list of job profiles
---`scale`: Job frequency (lower scale for fast injection rate)
---`simulation_length`: A total simulation length for one running episode
---`scheduler_name`: A name of scheduler (ETF/MET/STF/HEFT/random/DeepSoCS)
---`max_num_jobs`: A length of job queue
---`run_mode`: A choice of mode in simulation execution (`run` for standard DS3 framework / `step` for DS3Gym framework)
---`pss`: A choice of mode for enabling pseudo-steady-state
+* `--resource_profile`: A list of resource profiles
+* `--job_profile`: A list of job profiles
+* `--scale`: Job frequency (lower scale for fast injection rate)
+* `--simulation_length`: A total simulation length for one running episode
+* `--scheduler_name`: A name of scheduler (ETF/MET/STF/HEFT/random/DeepSoCS)
+* `--max_num_jobs`: A length of job queue
+* `--run_mode`: A choice of mode in simulation execution (`run` for standard DS3 framework / `step` for DS3Gym framework)
+* `--pss`: A choice of mode for enabling pseudo-steady-state
 
 
 ### Heuristic Schedulers
